@@ -65,6 +65,9 @@ text-indent: 5px;
 .meme--image{
   max-width: 100%;
   overflow: hidden;
+  height:600px;
+  width:900px;
+  align-items: center;
 }
 .meme {
   position: relative;
@@ -73,11 +76,18 @@ text-indent: 5px;
 }
 .meme--text-top .meme--text-bottom{
 position: absolute;
+color:white;
+font-family: 'Roboto Condensed', sans-serif;
 }
 .meme--text-top{
-  top:8px;
-  margin-top:-350px;
-  font-family:"Karla",sans-serif;
-  margin-bottom:200px
-  
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  margin-top:-550px;
+  color:white;
+  margin-bottom:400px 
+}
+.meme--text-bottom{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  font-size: 50px;
 }
