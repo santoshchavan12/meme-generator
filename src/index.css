@@ -7,7 +7,77 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main{
+  padding:36px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height:65px;
+  background-color: rgb(187, 21, 151);
+  color:white;
+  padding:20px;
+
+}
+
+.header--image{
+  height:100%;
+  margin-right:6px;
+}
+
+.header--title{
+  font-size:20px;
+  margin-right:auto;
+}
+
+
+.project--title {
+  font-size:12px;
+  font-weight:500;
+}
+
+.form{
+  display:grid;
+  grid-template:40px 40px / 1fr 1fr;
+  gap:17px;
+}
+.form--input {
+  font-family: 'Karla', sans-serif;
+  border-radius:1px solid grey;
+text-indent: 5px;
+}
+.form--btn{
+  grid-column: 1/-1;
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+  background-color: rgb(187, 21, 151);
+  color:white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor:pointer;
+  margin-bottom:10px;
+}
+
+.meme--image{
+  max-width: 100%;
+  overflow: hidden;
+}
+.meme {
+  position: relative;
+    text-align: center;
+    color: black;
+}
+.meme--text-top .meme--text-bottom{
+position: absolute;
+}
+.meme--text-top{
+  top:8px;
+  margin-top:-350px;
+  font-family:"Karla",sans-serif;
+  margin-bottom:200px
+  
 }
