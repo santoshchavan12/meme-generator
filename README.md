@@ -1,2 +1,2 @@
-#Simple Meme Generator App
+## Simple Meme Generator App
 
